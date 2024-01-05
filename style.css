@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.navbar{
+    padding:30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.navbar-nav{
+    padding-right:20px ;
+}
+
+<!--
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.my-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.bg-light {
+    background-color: #fffcf8 ;
+}
+.mt-0 {
+    margin-top: 0 ;
+}
+
+.wow, .animated {
+    animation-duration: 2s;
+}
+
+
+.row{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/2);
+    padding-left: calc(var(--bs-gutter-x)/2);
+    margin-top: var(--bs-gutter-y);
+}
+.bounceInUp {
+    animation-name: bounceInUp;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+.g-5, .gy-5 {
+    --bs-gutter-y: 3rem;
+}
+.g-5, .gx-5 {
+    --bs-gutter-x: 3rem;
+}
